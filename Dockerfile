@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:buster
 RUN apt-get -qq update
 
 RUN apt-get -qq install -y git g++ gcc autoconf automake \
