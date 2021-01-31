@@ -1,4 +1,4 @@
-FROM python:3-slim-buster
+FROM python:3.8-slim-buster
 RUN apt-get -qq update
 
 RUN apt-get -qq install -y git g++ gcc autoconf automake \
@@ -19,3 +19,4 @@ RUN git clone https://github.com/meganz/sdk.git sdk && cd sdk &&\
 
 
 
+3.8.7-slim-buster, , 3.8.7-slim, 3.8-slim
